@@ -3,6 +3,7 @@ import SocialStrip from './SocialStrip';
 import DSACards from './DSACards';
 import WebDevCards from './WebDevCards';
 import InterviewCards from './InterviewCards';
+import InteractiveLearning from './InteractiveLearning';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <DSACards />
         <WebDevCards />
         <InterviewCards />
+        <InteractiveLearning />
       </div>
     </>
   );

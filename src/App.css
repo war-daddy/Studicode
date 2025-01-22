@@ -288,6 +288,7 @@ a{
 }
 
 .dsa-card {
+  color: #282c34;
   padding: 2rem;
   border-radius: 15px;
   display: flex;
@@ -451,6 +452,7 @@ a{
 }
 
 .interview-card {
+  color: #282c34;
   padding: 2rem;
   border-radius: 15px;
   display: flex;
@@ -608,5 +610,188 @@ a{
   
   .detail-section {
     padding: 1.5rem;
+  }
+}
+
+.interactive-container {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.interactive-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.interactive-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.tab-button.active {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.tab-button:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.interactive-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  min-height: 400px;
+}
+
+.visualizer-container,
+.editor-container,
+.quiz-container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.control-panel {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.algorithm-select,
+.control-button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.visualization-area {
+  height: 300px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-editor {
+  width: 100%;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  font-family: 'Courier New', monospace;
+  resize: vertical;
+}
+
+.editor-controls {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.run-button,
+.clear-button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.run-button {
+  background: #4CAF50;
+  color: white;
+}
+
+.clear-button {
+  background: #f44336;
+  color: white;
+}
+
+.output-window {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 100px;
+  font-family: 'Courier New', monospace;
+}
+
+.question-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.option-button {
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.option-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.next-button {
+  width: 100%;
+  padding: 1rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .interactive-tabs {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .options {
+    grid-template-columns: 1fr;
+  }
+
+  .control-panel {
+    flex-direction: column;
   }
 }

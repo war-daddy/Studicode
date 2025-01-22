@@ -2,41 +2,41 @@ export const dsaData = [
   {
     "id": 1,
     "name": "Array",
-    "bgcolor": "#f0f" 
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   },
   {
     "id": 2,
     "name": "Linked List",
-    "bgcolor": "#0ff"
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   },
   {
     "id": 3,
     "name": "Stack",
-    "bgcolor": "#ff0"
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   },
   {
     "id": 4,
     "name": "Queue",
-    "bgcolor": "#f00"
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   },
   {
     "id": 5,
     "name": "Tree",
-    "bgcolor": "#0f0"
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   },
   {
     "id": 6,
     "name": "Graph",
-    "bgcolor": "#00f"
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   },
   {
     "id": 7,
     "name": "Hash Table",
-    "bgcolor": "#00f3"
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   },
   {
     "id": 8,
     "name": "Heap",
-    "bgcolor": "#004"
+    "bgcolor": "linear-gradient(45deg, #FFD93D, #FFE869)"
   }
 ]; 

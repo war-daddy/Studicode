@@ -9,9 +9,9 @@ function InterviewCards() {
           <div 
             key={item.id} 
             className="interview-card"
-            style={{ backgroundImage: item.bgcolor }}
+            style={{ backgroundImage: item.bgcolor,color:'black' }}
           >
-            <h3>{item.name}</h3>
+            <h3 style={{ color:'black' }}>{item.name}</h3>
           </div>
         ))}
       </div>

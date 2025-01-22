@@ -12,10 +12,10 @@ function DSACards() {
           <div 
             key={item.id} 
             className="dsa-card"
-            style={{ backgroundColor: item.bgcolor }}
+            style={{ backgroundImage: item.bgcolor,color:'black' }}
             onClick={() => navigate(`/dsa/${item.name}`)}
           >
-            <h3>{item.name}</h3>
+            <h3  style={{ color:'black' }}>{item.name}</h3>
           </div>
         ))}
       </div>
